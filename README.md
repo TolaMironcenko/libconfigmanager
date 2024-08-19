@@ -23,3 +23,7 @@ sudo make uninstall
 | libconfigmanagercpp.so | /usr/lib/libconfigmanagercpp.so |
 | ConfigManager.hpp | /usr/include/ConfigManager.hpp |
 | json.hpp | /usr/include/json.hpp |
+
+## Single include
+
+```include/ConfigManager.hpp``` in include directory
