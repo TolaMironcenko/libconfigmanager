@@ -4,7 +4,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include "lib/json.hpp"
+#include <json.hpp>
 
 class ConfigManager
 {
@@ -35,7 +35,7 @@ public:
     int setParameter(std::string name, bool value);
     int saveConfig();
     int saveConfig(std::string filename);
-    friend std::ostream& operator<<(std::ostream& out, const ConfigManager& manager) { return out << manager.config; }
+    friend std::ostream& operator<<(std::ostream& out, const ConfigManager& manager);
 };
 
 #endif // CONFIG_MANAGER_HPP
