@@ -28,7 +28,7 @@ clean:
 	
 install:
 	install $(SHAREDTARGET) /usr/lib
-	install include/ConfigManager.hpp /usr/include
+	install src/lib/ConfigManager.hpp /usr/include
 	install src/lib/json.hpp /usr/include
 
 uninstall:
